@@ -9,7 +9,7 @@ and processes the files to answer the following questions:
 
 Create three functions (and any other supporting programming you desire). The specification is as follows:
 
-*$ ruby shakespeare.rb [alpha] [dir to data set]*
+`$ ruby shakespeare.rb [alpha] [dir to data set]`
 
 Should print out a histogram to standard output in the form of:
 
@@ -20,7 +20,7 @@ Should print out a histogram to standard output in the form of:
 
 The second program should be run with the command line:
 
-*$ ruby shakespeare.rb [ten] [dir to data set]*
+`$ ruby shakespeare.rb [ten] [dir to data set]`
 
 And should print out a list ten words in alphabetical order, comma separated:
 
@@ -28,7 +28,7 @@ And should print out a list ten words in alphabetical order, comma separated:
 
 The final program function should be run with the command line:
 
-*$ ruby shakespeare.rb [three] [dir to data set]*
+`$ ruby shakespeare.rb [three] [dir to data set]`
 
 And should print out a comma separated list of three letter combinations in alphabetical order:
 
@@ -36,9 +36,19 @@ And should print out a comma separated list of three letter combinations in alph
 
 All functions should be able to be run from the same program file.
 
-The main program file should be called *shakespeare.rb*.
+The main program file should be called `shakespeare.rb`.
 
 Submit your programs in a self contained directory as a pull request to this challenge. Use your team or user name as the subdirectory in the solutions folder.
+
+## Testing
+
+We'll compare solutions on the testing machine which has Ruby 2.3.1 installed
+and using the Unix `time` tool.
+
+Runs can be executed in any order.
+
+It is ok to write temporary files for your processing, but they must be written
+in the current workding directory, not the data directory.
 
 ## Credits
 
