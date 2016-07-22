@@ -1,4 +1,3 @@
-require 'benchmark'
 
 TASK = ARGV[0]
 DIR_NAME = ARGV[1]
