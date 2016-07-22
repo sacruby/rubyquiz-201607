@@ -31,7 +31,7 @@ if TASK == "1"
     p "Counters of words starting with each letter: \n"
     p letter_word_counter
 
-
+    # this is taking 2.005s total
 
 end
 
@@ -57,6 +57,8 @@ if TASK == "2"
 
   top_ten_purged = top_ten_words.sort_by {|k, v| v}.reverse!
   p top_ten_purged[0..9]
+
+  # this is taking 2.466s total
 
 end
 
@@ -87,4 +89,6 @@ if TASK == "3"
 
   top_three_char = char_counters.sort_by {|k, v| v}.reverse!
   p top_three_char[0..2]
+
+  # this is taking 3.220s total
 end
